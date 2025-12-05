@@ -115,6 +115,13 @@ onMounted(() => {
     inset 0 0 0 1px rgba(255, 255, 255, 0.5);
   transform: rotate(-3deg);
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .profile-placeholder:hover {
